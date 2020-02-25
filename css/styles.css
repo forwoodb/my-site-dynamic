@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+/* Best practice? */
+/* html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} */
+
+/**********************************
+GENERAL
+***********************************/
+
+/* site body */
+body {
+  font-family:  'Open Sans', sans-serif;
+  color:  #999;
+  background-color:  #fff;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  clear: both;
+}
+
+/* links */
+a {
+  text-decoration:  none;
+  color:  #fff;
+}
+
+img {
+  max-width:  100%;
+}
+
+
+
+/**********************************
+HEADER
+***********************************/
+
+header {
+  float:  left;
+  margin:  0 0 30px 0;
+  padding:  5px 0 0 0;
+  width:  100%;
+  background:  #6791e5;
+  border-color:  #009;
+}
+
+header h1 {
+  font-family: cursive;
+}
+
+
+#logo {
+  margin: 0;
+  text-align: center;
+}
+
+/* logo text */
+h1, h2 {
+  color:  #fff;
+}
+
+h1 {
+  margin:  15px 0;
+  font-family:  'Changa One', sans-serif;
+  font-size:  1.75em;
+  font-weight:  normal;
+  line-height:  0.8em;
+}
+
+h2 {
+  margin:  -5px 0 0;
+  font-size:  0.75em;
+  font-weight:  normal;
+}
+
+
+
+/**********************************
+HEADER NAVIGATION
+***********************************/
+
+nav {
+  padding:  10px 0;
+  margin:  20px 0 0;
+  text-align:  center;
+}
+
+nav ul {
+  margin:  0 10px;
+  padding:  0;
+  list-style:  none;
+}
+
+nav li {
+  display:  inline-block;
+}
+
+/* nav link */
+nav a {
+  padding:  15px 10px;
+  font-weight:  800;
+}
+
+nav a, nav a:visited {
+  color:  #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover, a:hover {
+  color:  #006;
+}
+
+/* nav background on mobile */
+nav {
+  background:  #009;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  clear:  both;
+  padding-top:  50px;
+  font-size:  0.75em;
+  text-align:  center;
+  color:  #ccc;
+}
+
+.social-icon {
+  margin:  0 5px;
+  width:  20px;
+  height:  20px;
+}
+
+/**********************************
+PAGE:  PORTFOLIO
+***********************************/
+
+#gallery {
+  margin:  0;
+  padding:  0;
+  list-style:  none;
+}
+
+#gallery li {
+  float:  left;
+  margin:  2.5%;
+  width:  45%;
+  color:  #bdc3c7;
+  background-color:  #f5f5f5;
+}
+
+#gallery li a p {
+  margin:  0;
+  padding:  5%;
+  height: 34px;
+  font-size:  0.75em;
+  color:  #bdc3c7;
+  background-color: #ffd;
+}
+
+
+
+/**********************************
+PAGE:  ABOUT
+***********************************/
+
+.profile-photo {
+  display:  block;
+  margin:  0 auto 30px;
+  max-width:  150px;
+  border-radius:  100%;
+}
+
+#wrapper a {
+  color: #999;
+}
+
+
+
+/**********************************
+PAGE:  CONTACT
+***********************************/
+
+/* Form */
+
+.contact-form {
+  margin: auto;
+  align-content: center;
+}
+
+.contact-form div {
+  margin-bottom: 16px;
+}
+
+.contact-form label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.contact-form input, .contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+  border: 1px solid green;
+}
+
+/* info */
+
+.contact-info  {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  list-style: none;
+}
+
+.contact-info a {
+  color: #999;
+}

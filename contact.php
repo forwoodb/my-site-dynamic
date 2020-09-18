@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Brent Forwood | Developer</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <header>
-      <?php include 'header.php'; ?>
-    </header>
+<?php include 'header.php'; ?>
+
     <div id="wrapper">
       <section>
         <?php include 'contact-form.php'; ?>

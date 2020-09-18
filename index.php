@@ -1,47 +1,58 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Brent Forwood | Developer</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <header>
-      <?php include 'header.php'; ?>
-    </header>
+<?php include 'header.php'; ?>
+
     <div id="wrapper">
       <section>
         <ul id="gallery">
           <li>
-            <a href="http://forwoodb.github.io/one-page-theme/">
-              <img src="img/one-page-theme.png" alt="">
-              <p>Single Page Small Business Theme</p>
+            <a href="https://drivingapp-3c472.firebaseapp.com/" target="_blank">
+              <img src="img/driving-app-react.png" alt="">
+              <p>Driving App - React</p>
             </a>
           </li>
           <li>
-            <a href="http://brentforwood.com/FoodApp/index.php">
+            <a href="https://listapp-24506.firebaseapp.com/" target="_blank">
+              <img src="img/list-app-react.png" alt="">
+              <p>List App - React</p>
+            </a>
+          </li>
+          <li>
+            <a href="http://brentforwood.com/DrivingApp/index.php" target="_blank">
+              <img src="img/driving-app.png" alt="">
+              <p>Driving App</p>
+            </a>
+          </li>
+          <li>
+            <a href="http://brentforwood.com/FoodApp/index.php" target="_blank">
               <img src="img/food-app.png" alt="">
               <p>Food App</p>
             </a>
           </li>
           <li>
-            <a href="http://forwoodb.github.io/prototyping-with-bootstrap/">
+            <a href="http://brentforwood.com/ToDoApp/index.php" target="_blank">
+              <img src="img/todo-app.png" alt="">
+              <p>To Do App</p>
+            </a>
+          </li>
+          <li>
+            <a href="http://forwoodb.github.io/one-page-theme/" target="_blank">
+              <img src="img/one-page-theme.png" alt="">
+              <p>Single Page Small Business Theme</p>
+            </a>
+          </li>
+          <!-- <li>
+            <a href="http://forwoodb.github.io/prototyping-with-bootstrap/" target="_blank">
               <img src="img/bootstrap1.png" alt="">
               <p>Prototyping with Bootstrap</p>
             </a>
           </li>
           <li>
-            <a href="http://forwoodb.github.io/mw-project-1/">
+            <a href="http://forwoodb.github.io/mw-project-1/" target="_blank">
               <img src="img/classproject1.png" alt="">
               <p>Modern Web Class Project #1</p>
             </a>
-          </li>
+          </li> -->
           <li>
-            <a href="http://forwoodb.github.io/htmaw/">
+            <a href="http://forwoodb.github.io/htmaw/" target="_blank">
               <img src="img/htmaw.png" alt="">
               <p>How to Make a Website</p>
             </a>

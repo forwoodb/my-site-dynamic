@@ -13,7 +13,7 @@
 <<<<<<< HEAD
             <a href="https://foodapp-ce8b6.firebaseapp.com/" target="_blank">
               <img src="img/food-app-react.png" alt="">
-              <p>Food App - React</p>
+              <p>Food Appp - React</p>
             </a>
           </li>
           <li>
